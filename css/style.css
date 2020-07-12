@@ -1,0 +1,190 @@
+@font-face {
+    font-family:'OpenSans-Regular';
+    src: url('../font/OpenSans-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'OpenSans-Regular',Arial, Helvetica, sans-serif;
+}
+
+textarea{
+    font-family:'Courier New', Courier, monospace;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  textarea::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  textarea::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  textarea::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  textarea::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.tab{
+    width: 100px;
+}
+
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.slide div{
+    padding: 10px;
+}
+
+.slide .thumb img{
+    width: 300px;
+}
+
+.slide .text{
+    text-align: center;
+}
+.slide .text p,
+.slide .text h1
+{
+    margin: 10px;
+}
+.slide .text .download{
+    display: inline-block;
+    padding: 10px;
+    border-radius: .25em;
+    background-color: #4ca138;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
+}
+.slide .text .github{
+    display: inline-block;
+    padding: 10px;
+    border-radius: .25em;
+    background-color: #222222;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
+}
+.slide .text .github img{
+    width: 15px;
+}
+.slide .text .download:hover{
+    background-color: #25614A;
+}
+
+.slide .text .github:hover{
+    background-color: #555555;
+}
+.code-tutorial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.code-tutorial textarea{
+    border: 0;
+    background-color: #25614A;
+    color: #ffffff;
+    padding-left: 10px;
+}
+.code-tutorial div{
+    padding: 20px;
+}
+.title_each_of_type{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+@media only screen and (max-width:600px){
+    .slide{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .code-tutorial{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .code-tutorial *{
+        width: 100%;
+    }
+
+    .slide div{
+        width: 100%;
+        padding: 0px;
+    }
+    .slide .thumb img{
+        width: 100%;
+    }
+
+    .code-tutorial{
+        margin: 20px 0;
+    }
+
+    .code-tutorial div{
+        padding: 0px;
+    }
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.whatsapp{
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.footer p{
+    color:#3f3e42;
+}
+.footer .logo {
+    width: 32px;
+    margin: 0 16px;
+  }
+@media only screen and (max-width:784px){
+    .footer p{
+        font-size:12px;
+    }
+}
