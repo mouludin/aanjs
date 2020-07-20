@@ -59,9 +59,6 @@ aan1.draw({
             name:"b"
         }
     ],
-    setting:{
-        disableAnim:true
-    },
     type:"line"
 })
 
@@ -143,9 +140,6 @@ aan.draw({
             name:"b"
         }
     ],
-    setting:{
-        disableAnim:true
-    },
     type:"line"
 })
 `
@@ -171,9 +165,6 @@ aan3.draw({
             name:"b"
         }
     ],
-    setting:{
-        disableAnim:true
-    },
     type:"line"
 })
 
@@ -218,7 +209,6 @@ aan4.draw({
     ],
     setting:{
         amountDataDisplayed:10,
-        disableAnim:true
     },
     type:"line"
 })
