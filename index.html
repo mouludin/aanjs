@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mouludin - Aan js</title>
-    <script src="./js/aan.js"></script>
+    <script src="./js/aan.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -13,28 +13,75 @@
             <img src="./img/logo.png" alt="logo">
         </div>
         <div class="text">
-            <h1>Aan.js 1.0</h1>
+            <h1>Aan.js 2.0</h1>
             <p>Minimalist library for data visualization in JavaScript.</p>
-            <a href="./js/aan.js" class="download" download>download</a>
-            <a href="https://github.com/mouludin/aanjs/blob/master/js/aan.js" class="github">github</a>
+            <a href="./js/aan.min.js" class="download" download>download</a>
+            <a href="" class="github">github</a>
         </div>
     </div>
-    <h1 class="title_each_of_type">Type chart</h1>
+    <div class="introduction">
+        <h1>GET STARTED</h1>
+        <p>Before you can use aan.js, you need to <a href="./js/aan.min.js" download>download</a> and somewhere to display it. Save the following HTML to a file on your computer, along with a copy of aan.js in the js/ directory, and open it in your browser.</p>
+        <textarea name="code" id="code_box" cols="60" rows="17" disabled></textarea>
+    </div>
     <div class="code-tutorial">
         <div class="code">
-            <textarea name="code" id="code_box1" cols="60" rows="25" disabled></textarea>
-        </div>
-        <div class="canvas">
-            <canvas id="example1" width="500" height="400"></canvas>
+            <div>
+                <h1>CREATING THE CHART</h1>
+                <p>Thera are several types that you can use</p>
+            </div>
+            <h2>Bar chart</h2>
+            <div class="examplecode">
+                <div>
+                    <h3>Example code</h3>
+                    <textarea name="code" id="code_box1" cols="60" rows="20" disabled></textarea>
+                </div>
+                <div>
+                    <h3>result</h3>
+                    <canvas id="example1" width="500" height="300"></canvas>
+                </div>
+            </div>
+            <h2>Line chart</h2>
+            <div class="examplecode">
+                <div>
+                    <h3>Example code</h3>
+                    <textarea name="code" id="code_box2" cols="60" rows="20" disabled></textarea>
+                </div>
+                <div>
+                    <h3>result</h3>
+                    <canvas id="example2" width="500" height="300"></canvas>
+                </div>
+            </div>
         </div>
     </div>
-    <h1 align="right" class="title_each_of_type">Type bar</h1>
     <div class="code-tutorial">
         <div class="code">
-            <textarea name="code" id="code_box2" cols="60" rows="25" disabled></textarea>
-        </div>
-        <div class="canvas">
-            <canvas id="example2" width="500" height="400"></canvas>
+            <div>
+                <h1>OTHER FEATURES</h1>
+            </div>
+            <h2>Add title</h2>
+            <div class="examplecode">
+                <div>
+                    <h3>Example code</h3>
+                    <textarea name="code" id="code_box3" cols="60" rows="20" disabled></textarea>
+                </div>
+                <div>
+                    <h3>Result</h3>
+                    <canvas id="example3" width="500" height="300"></canvas>
+                </div>
+            </div>
+            <h2>Update</h2>
+            <p>Note: This feature is suitable for real time chart</p>
+            <div class="examplecode">
+                <div>
+                    <h3>Example code</h3>
+                    <textarea name="code" id="code_box4" cols="60" rows="20" disabled></textarea>
+                </div>
+                <div>
+                    <h3>Result</h3>
+                    <canvas id="example4" width="500" height="300"></canvas>
+                </div>
+            </div>
         </div>
     </div>
     <div class="footer">
