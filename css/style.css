@@ -14,6 +14,19 @@ textarea{
     font-family:'Courier New', Courier, monospace;
 }
 
+canvas{
+    display: block;
+    border: 2px solid black;
+}
+
+.introduction{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
   }
@@ -115,6 +128,12 @@ textarea{
     align-items: center;
     justify-content: center;
 }
+textarea{
+    border: 0;
+    background-color: #25614A;
+    color: #ffffff;
+    padding-left: 10px;
+}
 .code-tutorial textarea{
     border: 0;
     background-color: #25614A;
@@ -129,18 +148,28 @@ textarea{
     font-size: 60px;
 }
 
+.examplecode{
+    display: flex;
+}
+
 @media only screen and (max-width:600px){
     .slide{
         flex-direction: column;
         height: 100vh;
     }
 
+    .introduction{
+        width: 100%;
+    }
+
     .code-tutorial{
         flex-direction: column;
-        height: 100vh;
     }
 
     .code-tutorial *{
+        width: 100%;
+    }
+    textarea,canvas{
         width: 100%;
     }
 
@@ -158,6 +187,10 @@ textarea{
 
     .code-tutorial div{
         padding: 0px;
+    }
+    .examplecode{
+        display: flex;
+        flex-direction: column;
     }
     
 }
