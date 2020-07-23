@@ -72,6 +72,9 @@ textarea2.value =
 let canvas = document.querySelector('#chart')
 let aan = new Aan(canvas)
 aan.draw({
+    Xaxis:{
+        labels:[1,"two",3,"four",5]
+    },
     Yaxis:
     [
         {
@@ -95,6 +98,9 @@ aan.draw({
 let canvas2 = document.querySelector("#example2")
 let aan2 = new Aan(canvas2)
 aan2.draw({
+    Xaxis:{
+        labels:[1,"two",3,"four",5]
+    },
     Yaxis:
     [
         {
