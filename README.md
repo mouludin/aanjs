@@ -1,6 +1,4 @@
-<p align="center"> 
- <img align="center" src="img/logo.png">
-</p>
+![banner](img/logo.png)
 
 # Aan-JS
 
