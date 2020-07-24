@@ -2,6 +2,12 @@
  <img align="center" src="img/logo.png">
 </p>
 
-# Minimalist library for data visualization
+# Aan-JS
 
-Demo: <https://mouludin.github.io/aanjs/>
+## Authors
+
+* **Muhammad Mauludin Anwar** - *Initial work* - [mouludin](https://github.com/mouludin)
+
+## License
+
+This project is licensed under the terms of the MIT license, see LICENSE.
