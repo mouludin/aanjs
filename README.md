@@ -2,7 +2,8 @@
 
 # Aan-JS
 
-Minimalist library for data visualization
+Minimalist library for data visualization in JavaScript / Canvas HTML5.
+Check out our [Website](https://mouludin.github.io/aanjs) for how to use this library.
 
 ## Authors
 
