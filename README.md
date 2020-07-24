@@ -2,6 +2,8 @@
 
 # Aan-JS
 
+Minimalist library for data visualization
+
 ## Authors
 
 * **Muhammad Mauludin Anwar** - *Initial work* - [mouludin](https://github.com/mouludin)
