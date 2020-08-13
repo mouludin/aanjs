@@ -1,5 +1,6 @@
 
 let textarea = document.querySelector("#code_box")
+let textarea01 = document.querySelector("#code_box01")
 let textarea1 = document.querySelector("#code_box1")
 let textarea2 = document.querySelector("#code_box2")
 let textarea3 = document.querySelector("#code_box3")
@@ -21,6 +22,12 @@ textarea.value =
 </body>
 </html>
 `
+
+textarea01.value = 
+`
+<script src="https://cdn.jsdelivr.net/npm/aanjs@2.0.0/lib/aan.min.js"></script>
+`
+
 textarea1.value = 
 `
 let canvas = document.querySelector('#chart')
@@ -72,9 +79,6 @@ textarea2.value =
 let canvas = document.querySelector('#chart')
 let aan = new Aan(canvas)
 aan.draw({
-    Xaxis:{
-        labels:[1,"two",3,"four",5]
-    },
     Yaxis:
     [
         {
@@ -88,9 +92,6 @@ aan.draw({
             name:"b"
         }
     ],
-    setting:{
-        disableAnim:true
-    },
     type:"bar"
 })
 `
@@ -98,9 +99,6 @@ aan.draw({
 let canvas2 = document.querySelector("#example2")
 let aan2 = new Aan(canvas2)
 aan2.draw({
-    Xaxis:{
-        labels:[1,"two",3,"four",5]
-    },
     Yaxis:
     [
         {
@@ -114,9 +112,6 @@ aan2.draw({
             name:"b"
         }
     ],
-    setting:{
-        disableAnim:true
-    },
     type:"bar"
 })
 
@@ -145,7 +140,7 @@ aan.draw({
             color:"#4CA138",
             name:"b"
         }
-    ],
+    ]
     type:"line"
 })
 `
